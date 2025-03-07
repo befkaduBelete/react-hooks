@@ -1,7 +1,10 @@
 // import HookCounterTwo from "@/components/HookCounterTwo";
 // import HookCounterOne from "@/components/UseStateExample/HookCounterOne";
 
-import HookMouse from "@/components/UseEffectExamples/HookMouse";
+//import HookConteners from "@/components/UseEffectExamples/HookConteners";
+import DataFetchingOne from "@/components/DataFetching/DataFetchingOne";
+//import IntervalHookCounter from "@/components/UseEffectExamples/IntervalHookCounter";
+// import HookMouse from "@/components/UseEffectExamples/HookMouse";
 
 // import CountExampleOne from "@/components/UseEffectExamples/CountExampleOne";
 // import HookArray from "@/components/UseStateExample/HookArray";
@@ -17,7 +20,10 @@ export default function Home() {
      {/* <HookArray/> */}
      {/* <HookAsync/> */}
      {/* <CountExampleOne/> */}
-     <HookMouse/>
+     {/* <HookMouse/> */}
+     {/* <HookConteners/> */}
+     {/* <IntervalHookCounter/> */}
+     <DataFetchingOne/>
   </div>
   );
 }

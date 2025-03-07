@@ -13,7 +13,11 @@ const logMousePosition = (e: { clientX: React.SetStateAction<number>; clientY: R
 useEffect(()=>{
     console.log("UseEffect called")
     window.addEventListener('mousemove',logMousePosition)
-},[x,y])
+    return () =>{
+      console.log("Component Unmounting code")
+      window.removeEventListener('mousemove',logMousePosition)
+    }
+},[])
 
   return (
     <div>
